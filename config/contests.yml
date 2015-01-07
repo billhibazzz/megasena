@@ -27,4 +27,4 @@ quina:
 #   dom: ""
 megasena:
   url: "http://www1.caixa.gov.br/loterias/loterias/megasena/megasena_pesquisa_new.asp"
-  dom: "//body/span[@class='num_sorteio']/ul/li" 
+  dom: "//body/span[@class='num_sorteio'][2]/ul/li"
