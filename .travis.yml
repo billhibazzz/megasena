@@ -1,3 +1,11 @@
 language: ruby
 rvm:
-  - 2.0.0
+- 2.0.0
+deploy:
+  provider: rubygems
+  api_key:
+    secure: uSptWgFC6m/oNtekBxbKLPUCkOkpfEARMP5+EE0XnkY958hSTYEy5e1u/TY0UK6bet+jdrmv+3JWmft0PPYqbbYNgRDQQS7D6N1Rqpx1H9cZ92/kPBYs3ltU+1t3gmNGvOtK+wEE3c4ND9H80+Kt2vpkw1/HKkh2tg4+lv1lgjY=
+  gem: megasena
+  on:
+    tags: true
+    repo: nanernunes/megasena
