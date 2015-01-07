@@ -1,30 +1,30 @@
-# lotofacil:
-#   url: ""
+megasena:
+  url: "http://www1.caixa.gov.br/loterias/loterias/megasena/megasena_pesquisa_new.asp"
+  dom: "//span[@class='num_sorteio'][2]/ul/li"
+quina:
+  url: "http://www1.caixa.gov.br/loterias/loterias/quina/quina_pesquisa_new.asp"
+  dom: "//span[@id='sorteio2']/ul/li"
+# duplasena:
+#   url: "http://www1.caixa.gov.br/loterias/loterias/duplasena/duplasena_pesquisa_new.asp"
 #   dom: ""
-# lotomania:
-#   url: ""
-#   dom: ""
-# lotogol:
-#   url: ""
-#   dom: ""
-# loteca:
-#   url: ""
-#   dom: ""
-# timemania:
+# instantanea:
 #   url: ""
 #   dom: ""
 # federal:
 #   url: ""
 #   dom: ""
-# instantanea:
+# loteca:
+#   url: "http://www1.caixa.gov.br/loterias/loterias/loteca/loteca_pesquisa_new.asp"
+#   dom: ""
+# lotofacil:
+#   url: "http://www1.caixa.gov.br/loterias/loterias/lotofacil/lotofacil_pesquisa_new.asp"
+#   dom: ""
+# lotomania:
 #   url: ""
 #   dom: ""
-quina:
-  url: "http://www1.caixa.gov.br/loterias/loterias/quina/quina_pesquisa_new.asp"
-  dom: "//span[@id='sorteio2']/ul/li"
-# duplasena:
+# lotogol:
+#   url: "http://www1.caixa.gov.br/loterias/loterias/lotogol/lotogol_pesquisa_new.asp"
+#   dom: ""
+# timemania:
 #   url: ""
 #   dom: ""
-megasena:
-  url: "http://www1.caixa.gov.br/loterias/loterias/megasena/megasena_pesquisa_new.asp"
-  dom: "//body/span[@class='num_sorteio'][2]/ul/li"
