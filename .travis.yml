@@ -8,4 +8,4 @@ deploy:
   gem: megasena
   on:
     tags: true
-    repo: nanernunes/megasena
+    all_branches: true
