@@ -1,6 +1,6 @@
 megasena:
   url: "http://www1.caixa.gov.br/loterias/loterias/megasena/megasena_pesquisa_new.asp"
-  dom: "//span[@class='num_sorteio'][2]/ul/li"
+  dom: "//body/span[@class='num_sorteio']/ul/li"
 quina:
   url: "http://www1.caixa.gov.br/loterias/loterias/quina/quina_pesquisa_new.asp"
   dom: "//span[@id='sorteio2']/ul/li"
