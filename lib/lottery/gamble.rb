@@ -19,13 +19,8 @@ module Lottery
       end
 
       public
-      def get_contest
-        @contest
-      end
-
-      def get_numbers
-        @numbers
-      end
+      def get_contest; @contest; end
+      def get_numbers; @numbers; end
 
   end
 end

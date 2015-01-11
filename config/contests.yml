@@ -1,21 +1,29 @@
 megasena:
-  url: "http://www1.caixa.gov.br/loterias/loterias/megasena/megasena_pesquisa_new.asp"
-  dom: "//span[@class='num_sorteio'][position()=1]/ul/li"
+  :url: 'http://www1.caixa.gov.br/loterias/loterias/megasena/megasena_pesquisa_new.asp'
+  :dom: '//span[@class="num_sorteio"][1]/ul/li'
 quina:
-  url: "http://www1.caixa.gov.br/loterias/loterias/quina/quina_pesquisa_new.asp"
-  dom: "//span[@id='sorteio2']/ul/li"
+  :url: 'http://www1.caixa.gov.br/loterias/loterias/quina/quina_pesquisa_new.asp'
+  :dom: '//span[@id="sorteio2"]/ul/li'
 duplasena:
-  url: "http://www1.caixa.gov.br/loterias/loterias/duplasena/duplasena_pesquisa_new.asp"
-  dom: "//span[@class='num_sorteio'][position()<=2]/ul"
+  :url: 'http://www1.caixa.gov.br/loterias/loterias/duplasena/duplasena_pesquisa_new.asp'
+  :dom: '//span[@class="num_sorteio"][position()<=2]/ul'
 # instantanea:
 #   url: ""
 #   dom: ""
 # federal:
 #   url: ""
 #   dom: ""
-# loteca:
-#   url: "http://www1.caixa.gov.br/loterias/loterias/loteca/loteca_pesquisa_new.asp"
-#   dom: ""
+loteca:
+  :url: 'http://www1.caixa.gov.br/loterias/loterias/loteca/loteca_pesquisa_new.asp'
+  :dom: '//tr[@class="linhas"]'
+  :etc:
+    :game:    'td/div[@id="jogo"]'
+    :date:    'td[@class="separador"][5]'
+    :player1: 'td[@class="esquerda"]'
+    :score_1: 'td[@class="separador"][2]'
+    :player2: 'td[@class="direita"]'
+    :score_2: 'td[@class="separador"][4]'
+
 # lotofacil:
 #   url: "http://www1.caixa.gov.br/loterias/loterias/lotofacil/lotofacil_pesquisa_new.asp"
 #   dom: ""
