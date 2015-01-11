@@ -1,12 +1,12 @@
 megasena:
   url: "http://www1.caixa.gov.br/loterias/loterias/megasena/megasena_pesquisa_new.asp"
-  dom: "//body/span[@class='num_sorteio']/ul/li"
+  dom: "//span[@class='num_sorteio'][position()=1]/ul/li"
 quina:
   url: "http://www1.caixa.gov.br/loterias/loterias/quina/quina_pesquisa_new.asp"
   dom: "//span[@id='sorteio2']/ul/li"
-# duplasena:
-#   url: "http://www1.caixa.gov.br/loterias/loterias/duplasena/duplasena_pesquisa_new.asp"
-#   dom: ""
+duplasena:
+  url: "http://www1.caixa.gov.br/loterias/loterias/duplasena/duplasena_pesquisa_new.asp"
+  dom: "//span[@class='num_sorteio'][position()<=2]/ul"
 # instantanea:
 #   url: ""
 #   dom: ""

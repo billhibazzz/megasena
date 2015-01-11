@@ -3,6 +3,7 @@ require 'mechanize'
 
 module Lottery
   class Gamble
+      private
       attr_accessor :contest, :numbers
 
       def path
@@ -14,7 +15,16 @@ module Lottery
       def initialize 
         page = Mechanize.new.get( path[:url] ).parser
         @contest = page.at("//p").inner_html.scan(/(?=^)\d+/).first.to_i
-        @numbers = page.xpath( path[:dom] ).map(&:content).map(&:to_i)
+        @numbers = page.xpath( path[:dom] )
+      end
+
+      public
+      def get_contest
+        @contest
+      end
+
+      def get_numbers
+        @numbers
       end
 
   end

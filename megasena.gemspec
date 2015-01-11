@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'megasena'
-  s.version     = '0.0.9'
+  s.version     = '1.0.0'
   s.date        = '2014-12-30'
   s.summary     = "MegaSena Lottery"
   s.description = "MegaSena Gem"
