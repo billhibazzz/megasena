@@ -18,8 +18,8 @@ describe Lottery::Loteca do
 
     it "should return Brazilian day name on [Data]" do
       days = ['DOM','SEG','TER','QUA','QUI','SEX','SÁB']
-			assert_empty  @loteca.get_numbers.map{|k,v| v[:date] } - days
-		end
+      assert_empty  @loteca.get_numbers.map{|k,v| v[:date] } - days
+    end
 
   end
 
