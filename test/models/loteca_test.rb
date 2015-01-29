@@ -1,3 +1,4 @@
+# encoding: ISO-8859-1
 require_relative '../test_helper'
 
 describe Lottery::Loteca do
@@ -17,7 +18,7 @@ describe Lottery::Loteca do
     end
 
     it "should return Brazilian day name on [Data]" do
-      days = ['DOM','SEG','TER','QUA','QUI','SEX','S√ÅB']
+      days = ['DOM','SEG','TER','QUA','QUI','SEX','S¡B']
       assert_empty  @loteca.get_numbers.map{|k,v| v[:date] } - days
     end
 
