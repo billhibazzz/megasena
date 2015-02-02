@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/nanernunes/megasena.svg?branch=master)](https://travis-ci.org/nanernunes/megasena) [![Code Climate](https://codeclimate.com/github/nanernunes/megasena/badges/gpa.svg)](https://codeclimate.com/github/nanernunes/megasena) [![Test Coverage](https://codeclimate.com/github/nanernunes/megasena/badges/coverage.svg)](https://codeclimate.com/github/nanernunes/megasena)
+[![Gem Version](https://badge.fury.io/rb/megasena.svg)](http://badge.fury.io/rb/megasena) [![Build Status](https://travis-ci.org/nanernunes/megasena.svg?branch=master)](https://travis-ci.org/nanernunes/megasena) [![Code Climate](https://codeclimate.com/github/nanernunes/megasena/badges/gpa.svg)](https://codeclimate.com/github/nanernunes/megasena) [![Test Coverage](https://codeclimate.com/github/nanernunes/megasena/badges/coverage.svg)](https://codeclimate.com/github/nanernunes/megasena)
 
 # MegaSena 
 A gem **megasena** te possibilita obter diretamente do site da **CAIXA** os últimos resultados dos jogos e seus respectivos números. Por enquanto os únicos jogos disponíveis são os da CEF, mas no futuro há a pretensão de englobar outros  como a **TelaSela**.
