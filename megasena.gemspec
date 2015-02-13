@@ -10,5 +10,5 @@ Gem::Specification.new do |s|
   s.homepage    = 'http://rubygems.org/gems/megasena'
   s.license     = 'MIT'
 
-  s.add_dependency('mechanize')
+  s.add_dependency('mechanize', '~> 2.7.3')
 end
